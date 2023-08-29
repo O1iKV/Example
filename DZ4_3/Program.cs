@@ -10,6 +10,7 @@ for (int i = 0; i < array.Length; i++)
 {
     array[i] = random.Next(10);
 }
+  Console.WriteLine("Массив из 8 элементов:");
   Console.Write("[");
   while(index < count){
     Console.Write(array[index]);
